@@ -96,8 +96,8 @@ This command will clone the OpenMRS database into a DB called `openmrs` running 
 
 ## Development
 
-### **Creating SQL Models**
-
+### **Creating/Updating SQL Models**
+Models are SQL files that define the transformations and logic for your ETL process. They are located in the `core/models` directory of the project.
 For information on how to create SQL models, please refer to the [SQLMesh Models Overview documentation](https://sqlmesh.readthedocs.io/en/stable/concepts/models/overview/).
 
 ### **RUN SQL Mesh**  
