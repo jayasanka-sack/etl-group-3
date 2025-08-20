@@ -23,8 +23,8 @@ RUN pip install --break-system-packages pandas
 # set workdir
 WORKDIR /core
 
-COPY seed seed
-COPY omop-ddl omop-ddl
+#COPY seed seed
+#COPY omop-ddl omop-ddl
 COPY models models
 COPY config.yaml .
 COPY entrypoint.sh .
