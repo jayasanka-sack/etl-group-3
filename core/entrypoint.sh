@@ -42,6 +42,9 @@ case "$command" in
   apply-sqlmesh-plan)
     apply-sqlmesh-plan
     ;;
+  sqlmesh-ui)
+    sqlmesh ui --host 0.0.0.0 --port 8000
+    ;;
   *)
     echo "Unknown command: $command"
     echo "Usage: $0 {clone-openmrs-db|generate-concepts-usagi-input|apply-sqlmesh-plan|materialize-mysql-views|migrate-to-postgresql|import-omop-concepts|apply-omop-constraints|run-full-pipeline}"

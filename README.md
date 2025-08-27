@@ -102,9 +102,15 @@ For information on how to create SQL models, please refer to the [SQLMesh Models
 
 ### **RUN SQL Mesh**  
    ```bash
-   docker compose run --rm core apply-sqlmesh-plan
+   docker compose run --rm --service-ports core sqlmesh-ui
    ```
    Rerun this after making changes to model files.
 
    After running this command, it will create views under a database called `omop_db` which is running on port 3307.
 
+
+### Run SQL Mesh UI
+    ```bash
+    docker compose run --rm core sqlmesh-ui
+    ```
+    Access the UI at [http://localhost:8080](http://localhost:8000)
