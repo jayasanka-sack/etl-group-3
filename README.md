@@ -111,6 +111,6 @@ For information on how to create SQL models, please refer to the [SQLMesh Models
 
 ### Run SQL Mesh UI
     ```bash
-    docker compose run --rm core sqlmesh-ui
+    docker compose run --rm --service-ports core sqlmesh-ui
     ```
     Access the UI at [http://localhost:8080](http://localhost:8000)
