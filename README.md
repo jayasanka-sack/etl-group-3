@@ -102,7 +102,7 @@ For information on how to create SQL models, please refer to the [SQLMesh Models
 
 ### **RUN SQL Mesh**  
    ```bash
-   docker compose run --rm --service-ports core sqlmesh-ui
+   docker compose run --rm --service-ports core sqlmesh-apply
    ```
    Rerun this after making changes to model files.
 
